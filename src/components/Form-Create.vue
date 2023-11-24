@@ -4,7 +4,7 @@ import { ref } from 'vue';
 import Button from '@/components/Custom-Button.vue'
 
 type ComponentProps = {
-    createUser: ({ name, age }: createUserProps) => void
+    createUser: ({ name, age }: createUserProps) => void,
 }
 const { createUser } = defineProps<ComponentProps>();
 

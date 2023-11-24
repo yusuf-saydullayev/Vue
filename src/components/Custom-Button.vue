@@ -32,7 +32,7 @@ withDefaults(
         'bg-indigo-500 hover:bg-indigo-700 text-white font-bold': color === 'info',
 
     }">
-        <slot></slot>
+        <slot />
     </button>
 </template>
 
